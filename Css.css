@@ -1,5 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
+@font-face{
+	src: url("font/BaskervilleItalicBT.ttf");
+	font-family: bas;
+}
+@font-face{
+	src: url("font/Countryside Personal Use.ttf"), url("font/Countryside Two Personal use.ttf");
+	font-family: coun;
+}
+@font-face{
+	src: url("font/courier_[allfont.net].ttf");
+	font-family: cour;
+}
+@font-face{
+	src: url("font/Palatino.ttf");
+	font-family: pal;
+}
 * {
     margin: 0px;
     padding: 0px;
@@ -48,6 +64,7 @@
     text-align: center;
     margin-top: 30px;
     float: left;
+	font-family: pal;
 }
 .menu ul li a {
 	text-decoration: none;
@@ -69,7 +86,7 @@
 }
 #text {
     font-size: 40px;
-    font-family:  Countryside, Courier, "Euphemia UCAS Bold", "Euphemia UCAS Italic";
+    font-family: coun;
     color: #d7385e;
     float: left;
     position: absolute;
@@ -169,18 +186,18 @@
 }
 #special1 {
     margin-top: 20px;
-    font-family:  Countryside, Courier, "Euphemia UCAS Bold", "Euphemia UCAS Italic";
+    font-family: Coun;
     font-size: 30px;
     color: #A30104;
 }
 #normal {
-    font-family:  Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+    font-family:  bas;
     line-height: 40px;
     font-size: 25px;
     text-align: center;
 }
 #special2 {
-    font-family:  Countryside, Courier, "Euphemia UCAS Bold", "Euphemia UCAS Italic";
+    font-family:  Coun;
     font-size: 30px;
     color: #A30104;
     text-align: center;
